@@ -6,7 +6,7 @@ import ExpenseList from './components/ExpenseList';
 import DarkMode from './components/DarkMode';
 import BudgetAlert from './components/BudgetAlert';
 import CalendarView from './components/CalendarView';
-import { FaMoneyBillWave, FaPlusCircle, FaList, FaChartLine, FaCalendarAlt, FaTachometerAlt } from 'react-icons/fa';
+import { FaMoneyBillWave, FaPlusCircle, FaList, FaCalendarAlt, FaTachometerAlt } from 'react-icons/fa';
 
 function App() {
   const [activeTab, setActiveTab] = useState('dashboard');
